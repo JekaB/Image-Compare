@@ -1,0 +1,14 @@
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\bin\Debug\ImageComparison.exe.config
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\bin\Debug\ImageComparison.exe
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\bin\Debug\ImageComparison.pdb
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\obj\Debug\ImageComparison.csprojResolveAssemblyReference.cache
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\obj\Debug\MainWindow.g.cs
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\obj\Debug\App.g.cs
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\obj\Debug\ImageComparison_MarkupCompile.cache
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\obj\Debug\ImageComparison_MarkupCompile.lref
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\obj\Debug\MainWindow.baml
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\obj\Debug\ImageComparison.g.resources
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\obj\Debug\ImageComparison.Properties.Resources.resources
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\obj\Debug\ImageComparison.csproj.GenerateResource.Cache
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\obj\Debug\ImageComparison.exe
+c:\users\jeka\documents\visual studio 2015\Projects\ImageComparison\ImageComparison\obj\Debug\ImageComparison.pdb

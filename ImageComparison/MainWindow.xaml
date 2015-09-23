@@ -1,0 +1,28 @@
+﻿<Window x:Class="ImageComparison.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageComparison"
+        mc:Ignorable="d"
+        Title="TwoImages" Height="330" Width="900" Background="LightGray">
+    <Grid Margin="0,0,0,5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="FirstImg_btn" Content="First Image" Grid.Column="0" Grid.Row="1" Width="100" Height="25" Click="FirstImg_btn_Click"/>
+        <Button x:Name="SecondImg_btn" Content="Second Image" Grid.Column="1" Grid.Row="1" Width="100" Height="25" Click="SecondImg_btn_Click"/>
+        <Button Content="Compare Images" Command="{Binding CompareCommand}" Grid.Column="2" Grid.Row="1" Width="100" Height="25" Click="Button_Click"/>
+        <Button x:Name="Save_btn" Content="Save File" Command="{Binding OpenResultCommand}" Grid.Column="2" Grid.Row="2" Width="100" Height="25"/>
+        <Image x:Name="image1" Grid.Column="0" Grid.Row="0" Source="{Binding Images.Img1, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
+        <Image x:Name="image2" Grid.Column="1" Grid.Row="0" Source="{Binding Images.Img2, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>
+        <Image x:Name="image3" Grid.Column="2" Grid.Row="0" Source="{Binding Images.Img3, UpdateSourceTrigger=PropertyChanged}" Margin="5"/>   
+    </Grid>
+</Window>
